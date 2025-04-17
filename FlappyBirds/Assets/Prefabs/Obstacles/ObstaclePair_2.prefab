@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7717557219604015953}
   - component: {fileID: 694545170021059458}
-  - component: {fileID: 4799096555072229058}
+  - component: {fileID: 7191614598628440017}
   m_Layer: 0
   m_Name: UpperObstacle
   m_TagString: Untagged
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1997408891
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -2705597995764985619, guid: 8128defdbbf093a4c9cdc0dd46922fb2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -88,8 +88,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4799096555072229058
-BoxCollider2D:
+--- !u!60 &7191614598628440017
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -132,8 +132,39 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2285714, y: 5.457143}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.4166667, y: -2.0500002}
+      - {x: 1.8166667, y: -1.6500001}
+      - {x: 1.8833334, y: -1.5166668}
+      - {x: 1.8833334, y: -0.85}
+      - {x: 1.7833334, y: -0.35000002}
+      - {x: 1.5166668, y: 0.21666668}
+      - {x: 1.5833334, y: 0.38333336}
+      - {x: 1.5500001, y: 1.1166667}
+      - {x: 1.2833334, y: 1.9833335}
+      - {x: 1.0833334, y: 2.65}
+      - {x: 0.8833334, y: 2.8166668}
+      - {x: 0.016666668, y: 3.1833334}
+      - {x: -0.21666668, y: 3.1833334}
+      - {x: -0.5833334, y: 2.8500001}
+      - {x: -0.8833334, y: 2.2166667}
+      - {x: -0.9166667, y: 1.8500001}
+      - {x: -1.1500001, y: 1.7166667}
+      - {x: -1.5833334, y: 0.95000005}
+      - {x: -1.7166667, y: 0.3166667}
+      - {x: -1.8500001, y: -0.6833334}
+      - {x: -1.8500001, y: -1.5166668}
+      - {x: -1.7833334, y: -2.15}
+      - {x: -1.6500001, y: -2.7500002}
+      - {x: -1.3833334, y: -2.9833336}
+      - {x: -0.7166667, y: -3.0500002}
+      - {x: -0.38333336, y: -3.1833334}
+      - {x: 0.18333334, y: -3.1833334}
+      - {x: 0.7166667, y: -3.016667}
+      - {x: 1.0500001, y: -2.8500001}
+      - {x: 0.95000005, y: -2.25}
+  m_UseDelaunayMesh: 0
 --- !u!1 &5403944263925167595
 GameObject:
   m_ObjectHideFlags: 0
@@ -144,7 +175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3555068988743625502}
   - component: {fileID: 6703148669731279829}
-  - component: {fileID: 5116663292290106114}
+  - component: {fileID: 8649529226572918858}
   m_Layer: 0
   m_Name: LowerObstacle
   m_TagString: Untagged
@@ -208,8 +239,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1997408891
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 8032301891362702160, guid: 8128defdbbf093a4c9cdc0dd46922fb2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -222,8 +253,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &5116663292290106114
-BoxCollider2D:
+--- !u!60 &8649529226572918858
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -266,8 +297,40 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2, y: 5.4}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.6666667, y: -1.5500001}
+      - {x: 1.8666668, y: -1.5166668}
+      - {x: 1.8666668, y: -1.1500001}
+      - {x: 1.8000001, y: -0.78333336}
+      - {x: 1.7, y: -0.7166667}
+      - {x: 1.7, y: 0.25}
+      - {x: 1.5333334, y: 0.78333336}
+      - {x: 1.4333334, y: 1.0500001}
+      - {x: 1.1, y: 1.6833334}
+      - {x: 0.90000004, y: 2.2166667}
+      - {x: 0.53333336, y: 2.8166668}
+      - {x: 0.23333335, y: 3.15}
+      - {x: -0.10000001, y: 3.15}
+      - {x: -0.6, y: 2.8500001}
+      - {x: -1.2666668, y: 2.1833334}
+      - {x: -1.4000001, y: 1.8833334}
+      - {x: -1.5666667, y: 0.8166667}
+      - {x: -1.6333334, y: 0.18333334}
+      - {x: -1.8333334, y: -0.48333335}
+      - {x: -1.8666668, y: -0.7166667}
+      - {x: -1.7666668, y: -1.8833334}
+      - {x: -1.7333335, y: -2.25}
+      - {x: -1.3333334, y: -2.65}
+      - {x: -0.9666667, y: -2.8166668}
+      - {x: -0.6, y: -2.8500001}
+      - {x: -0.3, y: -3.0500002}
+      - {x: 0.033333335, y: -3.15}
+      - {x: 0.70000005, y: -3.15}
+      - {x: 1.2333333, y: -2.7833335}
+      - {x: 1.4333334, y: -2.3166668}
+      - {x: 1.3666668, y: -1.8833334}
+  m_UseDelaunayMesh: 0
 --- !u!1 &6603302280206052714
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,6 +418,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2736427946616198537}
+  - component: {fileID: -327279097099398723}
   m_Layer: 0
   m_Name: ObstaclePair_2
   m_TagString: Untagged
@@ -380,3 +444,17 @@ Transform:
   - {fileID: 8336454253396272670}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-327279097099398723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7569309182517205691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f12da3df385cf4748bcb5b9155a14906, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EndPositionX: -10
+  Speed: 2.5

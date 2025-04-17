@@ -7,9 +7,9 @@
             "actions": [
                 {
                     "name": "Thrust",
-                    "type": "PassThrough",
+                    "type": "Button",
                     "id": "c676545b-b339-4806-b608-dbbec4d39bfe",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
